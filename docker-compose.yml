@@ -1,0 +1,12 @@
+version: '3.8' # Versión de la herramienta
+services:
+  mongodb:
+    image: mongo:latest # Descarga la versión oficial de MongoDB
+    container_name: mi_mongo_db
+    ports:
+      - "27017:27017" # Conecta el puerto de la "caja" con el de tu PC
+    volumes:
+      - mongo_data:/data/db # Para que los datos no se borren al apagar la PC
+
+volumes:
+  mongo_data:

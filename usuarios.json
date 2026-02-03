@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gabriel",
+    "nivel": "Experto"
+  },
+  {
+    "id": 2,
+    "nombre": "Ana",
+    "nivel": "Intermedio"
+  }
+]
